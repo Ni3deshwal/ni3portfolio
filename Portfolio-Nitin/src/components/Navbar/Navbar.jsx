@@ -35,7 +35,7 @@ const Navbar = () => {
               <li><Link to="skills" spy={true} smooth={true}>Skills</Link></li>
               <li><Link to="projects" spy={true} smooth={true}>Projects</Link></li>
               <a
-                href="https://drive.google.com/file/d/1VkhfmUEgjaTSAkqepFaGEtyarmMnrtsi/view?usp=share_link"
+                href="https://drive.google.com/drive/folders/12SpIqoq1hk7PIWn5sBR_1SfUJY1uidDl?usp=share_link"
                 target="_blank"
               >
                 <li>Resume</li>

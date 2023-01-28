@@ -15,8 +15,8 @@ function Projects() {
   return (
     <div className="projects" id="projects">
       <h1 className="p-title">PROJECTS</h1>
-      {/* <div className="project">
-        <h1 className="project-heading">PharmaEasy Clone</h1>
+      <div className="project">
+        <h1 className="project-heading">Flipkart Clone</h1>
         <div className="project1">
           <div className="project-video-div">
             <div className="project-lang">
@@ -32,13 +32,13 @@ function Projects() {
             </div>
             <div className="project-video-div-for-media">
              
-              <img src={PharmaEasy} alt="PharmaEasy" style={{width:"100%", height:"100%",margin:"20px 0px",border:"1px solid gray"}}></img>
+              <img src={"https://camo.githubusercontent.com/fdae98ad115f5ac478d95e537f239b070f24bb7ff310420d6c202e9ad26651f2/68747470733a2f2f692e6962622e636f2f66464b373252472f323032332d30312d30392d312e706e67"} alt="PharmaEasy" style={{width:"100%", height:"100%",margin:"20px 0px",border:"1px solid gray"}}></img>
             </div>
             <div className="goto-button-div">
               <button className="button">
                 <a
                   className="button-goto"
-                  href="https://pharmeasymuntazir.netlify.app/"
+                  href="https://flipkart-clone-masai.netlify.app/"
                   target="_blank"
                 >
                   LIVE
@@ -47,7 +47,7 @@ function Projects() {
               <button className="button">
                 <a
                   className="button-goto"
-                  href="https://github.com/FaizanWani133/pharmaeasy-clone"
+                  href="https://github.com/PrathmeshVK/Flipkart_Clone"
                   target="_blank"
                 >
                   GitHub Repo
@@ -57,29 +57,29 @@ function Projects() {
           </div>
           <div className="project-about-div">
             <h1 className="p-div">
-            Here you can buy Medicines and Personal Heathcare Products.
+              This website is clone of well known E-commerce website "Flipkart". It is fully responsive and working collaborative project build within 6 day
             </h1>
             <h1 className="p-div">Features</h1>
             <ul className="p-details" style={mode?{color:"lightgray"}:lightmode}>
-              <li>Sign Up | Login | All Medincines and Heathcare products Page - with Filter & Sort Functionality</li>
-              <li>Single Product Page (dynamic) along with Add To Cart Feature</li>
+              <li>Sign Up | Login |Products Page - with Filter & Sort Functionality</li>
+              <li>Single Product Page along with Add To Cart Feature</li>
               <li>Checkout | Payment Page along with all Functionality</li>
             </ul>
             <h1 className="p-div">Areas of responsibility</h1>
             <ul className="p-details" style={mode?{color:"lightgray"}:lightmode}>
-              <li>Lead the Team and Manage the Project</li>
+              {/* <li>Lead the Team and Manage the Project</li> */}
               <li>
-              Developed Single Product Page | Footer Page along with all Functionality
+              Developed Single Product Page along with all Functionality
               </li>
               <li>Developed Checkout Page along with all Functionality</li>
               <li>Developed Backend for Web App</li>
             </ul>
             <h1 className="p-div">
-              A collaborative project built by 5 Developers within 7 days.
+              A collaborative project built by 4 Developers within 7 days.
             </h1>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="project">
         <h1 className="project-heading">Asos Clone</h1>
         <div className="project1">

@@ -18,7 +18,7 @@ function Services() {
         <span style={mode?darkmode:lightmode}>Services</span>
         <span style={mode?{color:"lightgray"}:lightmode}>MERN Stack Development <br /> ( Frontend & Backend )</span>
         <div>
-          <a href={Resume} download><button className='button s-button'>Download CV</button></a>
+          <a href="https://drive.google.com/drive/folders/12SpIqoq1hk7PIWn5sBR_1SfUJY1uidDl?usp=share_link" download><button className='button s-button'>Resume</button></a>
         </div>
         {/* <div className="blur s-blur1" style={{ background:"#ABF1FF94" }}></div> */}
       </div>

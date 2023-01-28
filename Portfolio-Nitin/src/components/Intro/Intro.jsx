@@ -26,7 +26,7 @@ const Intro = () => {
                 <span style={mode?{color:"lightgray"}:lightmode}>Full Stack Web Developer with proficient Skilled in both Frontend and Backend Development for producing the Quality work</span>
             </div>
             <div className='i-buttons-div'>
-            <a href="https://drive.google.com/file/d/1VkhfmUEgjaTSAkqepFaGEtyarmMnrtsi/view?usp=share_link" target="_blank"><button className="i-button button">Resume</button></a>
+            <a href="https://drive.google.com/drive/folders/12SpIqoq1hk7PIWn5sBR_1SfUJY1uidDl?usp=share_link" target="_blank"><button className="i-button button">Resume</button></a>
             <button className="i-button button"><Link to="contact" spy={true} smooth={true} style={{fontSize:'16px'}} >Hire me</Link></button>
             </div>
             <div className="i-icons">
